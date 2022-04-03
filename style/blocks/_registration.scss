@@ -1,0 +1,127 @@
+$color_pink: #F16D7F;
+$mass-size: 16px;
+
+.reg-offer {
+    background-color: #F8F3F4;
+}
+
+.reg-offer-tytle {
+    font-weight: 400;
+    font-size: $mass-size*1.5;
+    line-height: 29px;
+    color: $color_pink;
+    padding: 60px 0;
+}
+
+.form-wrap {
+    display: flex;
+}
+
+.form-reg {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    margin: 64px 128px 96px 0;
+}
+
+.form-reg-header {
+    font-weight: 300;
+    font-size: $mass-size;
+    line-height: ($mass-size)+3px;
+    color: #222222;
+}
+
+.form-input {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: ($mass-size)-3px;
+    line-height: $mass-size;
+    color: #000000;
+    padding: 13px 0 16px 17px;
+}
+
+.cheksex {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cheksex-text {
+    display: inline-block;
+    padding: 0 20px 0 10px;
+    font-weight: 300;
+    font-size: ($mass-size)-5px;
+    line-height: 13px;
+}
+
+.form-reg-text {
+    font-weight: 300;
+    font-size: ($mass-size)-3px;
+    line-height: $mass-size;
+    color: #B1B1B1;
+}
+
+.reg-button {
+    display: block;
+    width: 167px;
+    font-weight: 400;
+    font-size: ($mass-size)-2px;
+    line-height: ($mass-size)+1px;
+    color: $color_pink;
+    outline: 1px solid #F26376;
+    border: none;
+    background-color: #F8F3F4;
+    padding: 16px 29px;
+    margin-top: 48px;
+    margin-bottom: 95px;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+    .fa-arrow-right-long {
+        color: #000000;
+        padding-left: 20px;
+        transition: 0.5s ease;
+    }
+
+    &:hover {
+        color: #000000;
+        outline: 1px solid #F26376;
+        background-color: $color_pink;
+        transition: 0.5s ease;
+
+        .fa-arrow-right-long {
+            color: #ffffff;
+            transition: 0.5s ease;
+            transform: translateX(15px);
+        }
+    }
+}
+
+.reg-advantage {
+    margin-top: 64px;
+}
+
+.reg-advantage-header {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.reg-advantage-text,
+.reg-list-element {
+    font-weight: 300;
+    font-size: $mass-size*1.5;
+    line-height: $mass-size*1.5+5px;
+}
+
+.reg-list-element {
+    list-style: none;
+    padding-bottom: 16px;
+    margin-left: -35px;
+
+    .fa-solid {
+        margin-right: 20px;
+    }
+}

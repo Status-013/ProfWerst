@@ -1,0 +1,120 @@
+.top_product-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_product-header {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    margin: 0;
+}
+
+.top_product-header-text {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    margin-bottom: 48px;
+}
+
+.top_product-item-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top_product-item {
+    height: 582px;
+    width: 360px;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.top_product-item:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.overlay {
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    background-color: rgba(58, 56, 56, 0.83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.top_product-item:hover .overlay {
+    opacity: 1;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 11px 13px 9px 13px;
+    background: transparent;
+    outline: 1px solid #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    border: none;
+
+    .cart-svg {
+        margin-right: 11px;
+        fill: #FFFFFF;
+    }
+}
+
+.top_product-item-heading {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding: 0 17px;
+}
+
+.top_product-item-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding: 0 17px;
+}
+
+.top_product-item-price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding: 0 17px;
+}
+
+.button-catalog {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: 1px solid #F26376;
+    padding: 14px 38px;
+    margin-top: 48px;
+    margin-bottom: 95px;
+    text-decoration: none;
+    transition: 400ms ease;
+
+    &:hover {
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffffff;
+        background-color: #F26376;
+        transition: 400ms ease;
+        padding: 14px 38px;
+        margin-top: 48px;
+        margin-bottom: 95px;
+        text-decoration: none;
+    }
+}

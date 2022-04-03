@@ -1,0 +1,264 @@
+.filter {
+    width: 360px;
+    position: relative;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.filter[open] {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.filter summary::-webkit-details-marker {
+    display: none;
+}
+
+.filter summary {
+    display: flex;
+    align-items: center;
+    padding: 13px 11px 16px 16px;
+    position: relative;
+    z-index: 10;
+    background-color: #ffffff;
+
+    .filter-img {
+        padding-left: 11px;
+    }
+}
+
+.filter[open]>summary {
+    color: #EF5B70;
+    fill: #EF5B70;
+    outline: none;
+    border: none;
+    position: relative;
+    z-index: 9;
+}
+
+.filter-title[open] {
+    .category {
+        color: #EF5B70;
+    }
+}
+
+.fiter-content {
+    position: absolute;
+    z-index: 2;
+    background-color: #ffffff;
+    width: 360px;
+    left: 0;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.filter-list {
+    list-style: none;
+}
+
+.filter-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #6F6E6E;
+    padding-top: 11px;
+    margin-left: -20px;
+}
+
+.category {
+    display: block;
+    border-left: 5px solid #EF5B70;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 11px;
+}
+
+.catalog-sort {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 51px;
+    padding-bottom: 64px;
+
+    &.sort,
+    .alignblock {
+        width: 360px;
+    }
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+}
+
+
+.sort-text {
+    padding: 13px 0px 16px 5px;
+}
+
+.sort-trend,
+.sort-size,
+.sort-price {
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+    cursor: pointer;
+    position: relative;
+}
+
+.sort-trend summary,
+.sort-size summary,
+.sort-price summary {
+    z-index: 10;
+    background-color: #fff;
+}
+
+.sort-trend[open],
+.sort-size[open],
+.sort-price[open] {
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    z-index: 9;
+    background-color: #fff;
+
+    .sort-text {
+        color: #EF5B70;
+
+        .fa-angle-down {
+            color: #EF5B70;
+        }
+    }
+}
+
+.sort-trend[open] {
+    width: 140px;
+}
+
+.sort-trend-list {
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    list-style: none;
+    width: 140px;
+    min-height: 103px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .trend-item {
+        display: inline-block;
+        padding: 7px 0 4px 9px;
+        list-style: none;
+    }
+}
+
+.sort-size {
+    width: 60px;
+}
+
+.sort-size-list {
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    list-style: none;
+    width: 60px;
+    min-height: 103px;
+    padding: 0;
+
+    .sort-check {
+        display: inline-block;
+        padding: 7px 0 4px 9px;
+    }
+}
+
+.sort-price {
+    width: 70px;
+}
+
+.sort-price-list {
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    list-style: none;
+    width: 70px;
+    min-height: 103px;
+    padding: 0;
+
+    .price-item {
+        display: inline-block;
+        padding: 7px 0 4px 28px;
+    }
+}
+
+details>summary {
+    list-style: none;
+}
+
+details>summary::marker {
+    display: none;
+}
+
+.sort-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.fa-angle-down {
+    color: #6F6E6E;
+    padding-left: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 48px 0 96px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.pagination-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    border: 1px solid #EBEBEB;
+    padding: 10px;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    color: #000;
+}
+
+.pagination-item--separator {
+    margin: 0 -10px;
+    color: grey;
+}
+
+.pagination-link {
+    color: #C4C4C4;
+    background-color: #fff;
+    border: none;
+
+    &:hover {
+        background-color: #F3EDED;
+    }
+}
+
+.pagination-link--active {
+    color: #EF5B70;
+}

@@ -1,0 +1,32 @@
+.advantage {
+    background-color: #222222;
+    color: #fff;
+    padding: 104px 0;
+}
+
+.advantage-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage-delivery, .advantage-salis, .advantage-quality {
+    height: 133px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage-heading {
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.advantage-text {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
