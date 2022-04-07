@@ -1,0 +1,52 @@
+@media(max-width: 1200px) {
+    .header-wrap {
+        padding: 0 32px;
+    }
+
+    .offer-wrap {
+        max-height: 368px;
+        background-position-x: 0;
+        background-size: contain;
+    }
+
+    .categories-wrap {
+        padding: 0 16px;
+    }
+
+    .categories-item-women,
+    .categories-item-men,
+    .categories-item-kids {
+        width: 32%;
+        height: 25vmin;
+        background-size: 100% auto;
+    }
+
+    .categories-item-acc {
+        height: 20vmin;
+    }
+
+    .top_product-item-block {
+        justify-content: center;
+        gap: 16px;
+        padding: 0 16px;
+    }
+
+    .advantage {
+        padding: 48px 0;
+    }
+
+    .advantage-wrap {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .feedback-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-wrap {
+        padding: 0 32px;
+    }
+}

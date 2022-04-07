@@ -28,7 +28,6 @@
 }
 
 .top_product-item {
-    height: 582px;
     width: 360px;
     background-color: #F8F8F8;
     margin-bottom: 30px;
@@ -107,14 +106,8 @@
     transition: 400ms ease;
 
     &:hover {
-        font-size: 16px;
-        line-height: 19px;
         color: #ffffff;
         background-color: #F26376;
         transition: 400ms ease;
-        padding: 14px 38px;
-        margin-top: 48px;
-        margin-bottom: 95px;
-        text-decoration: none;
     }
 }

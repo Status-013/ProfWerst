@@ -104,20 +104,9 @@
     position: relative;
 }
 
-.sort-trend summary,
-.sort-size summary,
-.sort-price summary {
-    z-index: 10;
-    background-color: #fff;
-}
-
 .sort-trend[open],
 .sort-size[open],
 .sort-price[open] {
-    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-    z-index: 9;
-    background-color: #fff;
-
     .sort-text {
         color: #EF5B70;
 
@@ -128,7 +117,7 @@
 }
 
 .sort-trend[open] {
-    width: 140px;
+    width: 137px;
 }
 
 .sort-trend-list {
@@ -141,9 +130,10 @@
     list-style: none;
     width: 140px;
     min-height: 103px;
-    padding: 0;
+    padding: 0 0 10px 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 
     .trend-item {
@@ -160,14 +150,16 @@
 .sort-size-list {
     position: absolute;
     top: 20px;
+    left: -7px;
     z-index: 1;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     box-sizing: border-box;
     background-color: #ffffff;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     list-style: none;
-    width: 60px;
+    width: 79px;
     min-height: 103px;
     padding: 0;
 
@@ -181,24 +173,19 @@
     width: 70px;
 }
 
-.sort-price-list {
+.choose-list {
     position: absolute;
     top: 20px;
     z-index: 1;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     box-sizing: border-box;
     background-color: #ffffff;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     list-style: none;
-    width: 70px;
     min-height: 103px;
-    padding: 0;
-
-    .price-item {
-        display: inline-block;
-        padding: 7px 0 4px 28px;
-    }
+    padding: 0 0 10px 0;
 }
 
 details>summary {
