@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Cart</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
@@ -93,48 +93,66 @@
             </div>
         </div>
     </header>
-    <section class="reg-offer">
-        <div class="wrapper reg-offer-wrap">
-            <h2 class="reg-offer-tytle">REGISTRATION</h2>
+    <section class="cart-offer">
+        <div class="wrapper cart-offer-wrap">
+            <h2 class="cart-offer-tytle">SHOPPING CART</h2>
         </div>
     </section>
-    <section class="registration-form">
-        <div class="wrapper form-wrap">
-            <div class="form-reg">
-                <h3 class="form-reg-header">Your Name</h3>
-                <input class="form-input" type="text" placeholder="First Name" required>
-                <input class="form-input" type="text" placeholder="Last Name" required>
-                <div class="cheksex">
-                    <input class="cheksex-radio" type="radio" name="sex" value="male">
-                    <p class="cheksex-text">Male</p>
-                    <input type="radio" name="sex" value="female">
-                    <p class="cheksex-text">Female</p>
+    <section class="cart-form">
+        <div class="wrapper cart-wrap">
+            <div class="card-box">
+                <div class="cart-card">
+                    <img class="card-img" src="img/product8.jpg" alt="product">
+                    <div class="card-space">
+                        <div class="cart-descript">
+                            <p class="cart-descript-tytle">MANGO PEOPLE <br>T-SHIRT</p>
+                            <p class="cart-descript-text">Price: <span class="cart-descript-text-pink">$300</span></p>
+                            <p class="cart-descript-text">Color: Red</p>
+                            <p class="cart-descript-text">Size: Xl </p>
+                            <div class="quantity-input">
+                                <p class="cart-descript-text">Quantity: </p>
+                                <input class="cart-quantity-input" type="text" value="2" maxlength="1">
+                            </div>
+                        </div>
+                        <span class="close-cart">X</span>
+                    </div>
                 </div>
-                <h3 class="form-reg-header">Login details</h3>
-                <input class="form-input" type="email" placeholder="Email" required>
-                <input class="form-input" type="password" placeholder="Password" required>
-                <p class="form-reg-text">Please use 8 or more characters, with at least 1 number and a mixture of
-                    uppercase and lowercase
-                    letters
-                </p>
-                <button class="reg-button" type="submit"><b>JOIN NOW </b><i
-                        class="fa-solid fa-arrow-right-long"></i></button>
+                <div class="cart-card">
+                    <img class="card-img" src="img/product7.jpg" alt="product">
+                    <div class="card-space">
+                        <div class="cart-descript">
+                            <p class="cart-descript-tytle">MANGO PEOPLE <br>T-SHIRT</p>
+                            <p class="cart-descript-text">Price: <span class="cart-descript-text-pink">$300</span></p>
+                            <p class="cart-descript-text">Color: Red</p>
+                            <p class="cart-descript-text">Size: Xl </p>
+                            <div class="quantity-input">
+                                <p class="cart-descript-text">Quantity: </p>
+                                <input class="cart-quantity-input" type="text" value="2" maxlength="1">
+                            </div>
+                        </div>
+                        <span class="close-cart">X</span>
+                    </div>
+                </div>
+                <div class="shopping-button-block">
+                    <button class="shopping-button" type="submit">CLEAR SHOPPING CART</button>
+                    <button class="shopping-button" type="submit">CONTINUE SHOPPING</button>
+                </div>
+
             </div>
-            <div class="reg-advantage">
-                <h3 class="reg-advantage-header">LOYALTY HAS ITS PERKS</h3>
-                <p class="reg-advantage-text">Get in on the loyalty program where you can earn points and unlock serious
-                    perks. Starting with these
-                    as
-                    soon as you join:</p>
-                <ul class="reg-list">
-                    <li class="reg-list-element"><i class="fa-solid fa-check"></i>15% off welcome offer</li>
-                    <li class="reg-list-element"><i class="fa-solid fa-check"></i>Free shipping, returns and exchanges
-                        on all orders</li>
-                    <li class="reg-list-element"><i class="fa-solid fa-check"></i>$10 off a purchase on your birthday
-                    </li>
-                    <li class="reg-list-element"><i class="fa-solid fa-check"></i>Early access to products</li>
-                    <li class="reg-list-element"><i class="fa-solid fa-check"></i>Exclusive offers & rewards</li>
-                </ul>
+            <div>
+                <div class="form-address">
+                    <h3 class="form-address-header">SHIPPING ADRESS</h3>
+                    <input class="form-address-input" type="text" placeholder="Bangladesh" required>
+                    <input class="form-address-input" type="text" placeholder="State" required>
+                    <input class="form-address-input" type="text" placeholder="Postcode / Zip" required>
+                    <button class="address-button" type="submit">GET A QUOTE</button>
+                </div>
+                <div class="checkout">
+                    <span class="sub-total">SUB TOTAL $900</span>
+                    <span class="grand-total">GRAND TOTAL <span class="text-pink">$900</span></span>
+                    <hr width="275px" size="1px" align="centr" color="#E2E2E2">
+                    <button class="checkout-button" type="submit">PROCEED TO CHECKOUT</button>
+                </div>
             </div>
         </div>
 

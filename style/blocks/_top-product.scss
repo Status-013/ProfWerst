@@ -64,6 +64,7 @@
     line-height: 17px;
     color: #ffffff;
     border: none;
+    text-decoration: none;
 
     .cart-svg {
         margin-right: 11px;
@@ -74,8 +75,15 @@
 .top_product-item-heading {
     font-size: 13px;
     line-height: 16px;
-    color: #000000;
     padding: 0 17px;
+    text-decoration: none;
+    color: #000000;
+    transition: 3s ease;
+
+    &:hover {
+        color: #F26376;
+        transition: 0.3s ease;
+    }
 }
 
 .top_product-item-text {

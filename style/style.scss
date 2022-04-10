@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Lato', sans-serif;
-
+    position: relative;
 }
 
 .wrapper {
@@ -36,3 +36,7 @@ body {
 @import 'blocks/product';
 
 @import 'blocks/index-adapt';
+
+@import 'blocks/cart';
+
+@import 'blocks/menu';
