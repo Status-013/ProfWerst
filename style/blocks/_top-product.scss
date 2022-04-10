@@ -28,8 +28,7 @@
 }
 
 .top_product-item {
-    height: 582px;
-    width: 360px;
+    max-width: 360px;
     background-color: #F8F8F8;
     margin-bottom: 30px;
 }
@@ -65,6 +64,7 @@
     line-height: 17px;
     color: #ffffff;
     border: none;
+    text-decoration: none;
 
     .cart-svg {
         margin-right: 11px;
@@ -75,8 +75,15 @@
 .top_product-item-heading {
     font-size: 13px;
     line-height: 16px;
-    color: #000000;
     padding: 0 17px;
+    text-decoration: none;
+    color: #000000;
+    transition: 3s ease;
+
+    &:hover {
+        color: #F26376;
+        transition: 0.3s ease;
+    }
 }
 
 .top_product-item-text {
@@ -107,14 +114,8 @@
     transition: 400ms ease;
 
     &:hover {
-        font-size: 16px;
-        line-height: 19px;
         color: #ffffff;
         background-color: #F26376;
         transition: 400ms ease;
-        padding: 14px 38px;
-        margin-top: 48px;
-        margin-bottom: 95px;
-        text-decoration: none;
     }
 }
