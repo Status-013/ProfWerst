@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-    width: 1140px;
+    max-width: 1140px;
     /*outline: 1px solid red;*/
     margin: 0 auto;
 }
@@ -32,3 +32,7 @@ body {
 @import 'blocks/catalog-product';
 
 @import 'blocks/registration';
+
+@import 'blocks/product';
+
+@import 'blocks/index-adapt';
