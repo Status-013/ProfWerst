@@ -1,24 +1,24 @@
-.catalog-offer{
-    background-color: #F8F3F4;
+.catalog-offer {
+  background-color: #F8F3F4;
 }
 
-.catalog-offer-wrap{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 148px;
+.catalog-offer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 148px;
 }
 
-.catalog-offer-title{
-    font-size: 24px;
-    line-height: 29px;
-    color: #F16D7F;
+.catalog-offer-title {
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
 }
 
 .breadcrumbs {
-	padding: 20px;
-	background-color: #F8F3F4;
+  background-color: #F8F3F4;
 }
+
 .breadcrumbs-list {
   list-style: none;
   margin: 0;
@@ -44,6 +44,7 @@
   line-height: 17px;
   color: #636363;
   transition: 0.2s;
+
   &[href]:hover {
     text-decoration: underline;
     color: #F16D7F;
@@ -53,5 +54,5 @@
 
 .breadcrumbs-link--current {
   font-weight: bold;
-  color: #F16D7F;  
+  color: #F16D7F;
 }

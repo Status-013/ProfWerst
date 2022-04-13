@@ -11,6 +11,10 @@
     color: #000;
     background-color: rgba(42, 42, 42, 0.15);
 
+    &:hover {
+        color: #F16D7F
+    }
+
 }
 
 .product-wrap {
@@ -34,6 +38,15 @@
     color: #F16D7F;
     margin-top: 65px;
     margin-bottom: 12px;
+}
+
+.line-upper {
+    width: 63px;
+    height: 3px;
+    margin: 0 auto;
+    color: #EF5B70;
+    background-color: #EF5B70;
+    border: none;
 }
 
 .product-card-title {
@@ -67,6 +80,15 @@
     margin-top: 128px;
 }
 
+.line-select {
+    width: 642px;
+    height: 1px;
+    margin: 0 auto;
+    color: #EAEAEA;
+    background-color: #EAEAEA;
+    border: none;
+}
+
 .select {
     display: flex;
     align-items: center;
@@ -79,6 +101,14 @@
     margin-right: 28px;
     cursor: pointer;
     position: relative;
+}
+
+.sort-text:hover {
+    color: #EF5B70;
+
+    .fa-angle-down {
+        color: #EF5B70;
+    }
 }
 
 .choose[open] {

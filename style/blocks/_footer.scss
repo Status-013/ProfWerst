@@ -58,7 +58,8 @@
     background-color: #E1E1E1;
     transition: 0.5s ease;
 
-    &:hover {
+    &:hover,
+    &:focus {
         background-color: #9F9F9F;
         transition: 0.5s ease;
     }
@@ -107,7 +108,7 @@
     height: 32px;
     margin-right: 7px;
     text-decoration: none;
-    font-weight: 16px;
+    font-weight: bold;
     transition: 0.3s ease;
 
     &:hover {
@@ -120,6 +121,6 @@
         width: 32px;
         height: 32px;
         text-decoration: none;
-        font-weight: 16px;
+        font-weight: bold;
     }
 }

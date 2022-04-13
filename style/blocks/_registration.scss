@@ -10,7 +10,7 @@ $mass-size: 16px;
     font-size: $mass-size*1.5;
     line-height: 29px;
     color: $color_pink;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .form-wrap {
@@ -45,6 +45,12 @@ $mass-size: 16px;
         background-color: #F3EEEF;
         transition: 0.5s ease;
     }
+
+    &:focus {
+        background-color: #F3EEEF;
+        transition: 0.5s ease;
+        box-shadow: 5px 5px 5px #4A4A4A;
+    }
 }
 
 .cheksex {
@@ -72,6 +78,7 @@ $mass-size: 16px;
 .reg-button {
     display: block;
     width: 167px;
+    height: 50px;
     font-weight: 400;
     font-size: ($mass-size)-2px;
     line-height: ($mass-size)+1px;
