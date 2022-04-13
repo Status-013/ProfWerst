@@ -6,11 +6,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Lato', sans-serif;
-
+    position: relative;
 }
 
 .wrapper {
-    width: 1140px;
+    max-width: 1140px;
     /*outline: 1px solid red;*/
     margin: 0 auto;
 }
@@ -32,3 +32,11 @@ body {
 @import 'blocks/catalog-product';
 
 @import 'blocks/registration';
+
+@import 'blocks/product';
+
+@import 'blocks/cart';
+
+@import 'blocks/menu';
+
+@import 'blocks/adaptiv';

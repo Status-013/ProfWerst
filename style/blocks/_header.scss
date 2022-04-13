@@ -61,22 +61,3 @@
     color: transparent;
     margin-left: 33px;
 }
-
-@keyframes move_eye {
-    from {
-        margin-left: -20%;
-    }
-
-    to {
-        margin-left: 100%;
-    }
-}
-
-.cylon_eye {
-    background-color: #F16D7F;
-    background-image: linear-gradient(to right, #222222, rgba(0, 0, 0, 0.1) 50%, #222222 75%);
-    color: white;
-    height: 3px;
-    width: 20%;
-    animation: 4s linear 0s infinite alternate move_eye;
-}

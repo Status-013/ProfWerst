@@ -1,0 +1,121 @@
+@media(max-width: 1200px) {
+    .header-wrap {
+        padding: 0 32px;
+    }
+
+    .offer-wrap {
+        max-height: 368px;
+        background-position-x: -50px;
+        background-size: contain;
+    }
+
+    .categories-wrap {
+        padding: 0 16px;
+    }
+
+    .categories-item-women,
+    .categories-item-men,
+    .categories-item-kids {
+        width: 32%;
+        height: 25vmin;
+        background-size: 100% auto;
+    }
+
+    .categories-item-acc {
+        height: 20vmin;
+    }
+
+    .top_product-item-block {
+        justify-content: center;
+        gap: 16px;
+        padding: 0 16px;
+    }
+
+    .advantage {
+        padding: 48px 0;
+    }
+
+    .advantage-wrap {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+
+    .feedback-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-wrap {
+        padding: 0 32px;
+    }
+}
+
+@media(max-width: 490px) {
+
+    .wrapper {
+        padding: 0 16px;
+    }
+
+    .regestry-link,
+    .cart-link {
+        display: none;
+    }
+
+    .offer-wrap {
+        background-image: none;
+        justify-content: center;
+    }
+
+    .offer-title {
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 46px;
+        margin: 0;
+    }
+
+    .offer-title-small {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .categories-item-women,
+    .categories-item-men,
+    .categories-item-kids {
+        width: 100%;
+        height: 0;
+        background-size: contain;
+        padding-top: 36%;
+        padding-bottom: 36%;
+        display: flex;
+    }
+
+    .categories-item-acc {
+        width: 100%;
+        height: 0;
+        background-size: cover;
+        padding-top: 16%;
+        padding-bottom: 16%;
+        margin-top: 0;
+        margin-bottom: -10px;
+    }
+
+    .categories-wrap {
+        gap: 32px 0;
+    }
+
+
+    .footer-wrap {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-social {
+        margin: 40px 0;
+    }
+
+    .footer-text {
+        margin-bottom: -20px;
+    }
+}
