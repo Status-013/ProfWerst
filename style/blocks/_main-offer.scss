@@ -10,8 +10,9 @@
     background-position-y: bottom;
     display: flex;
     align-items: center;
-    justify-content: flex-end;    
+    justify-content: flex-end;
 }
+
 .offer-title {
     font-weight: 900;
     font-size: 48px;
@@ -21,12 +22,14 @@
     padding-left: 16px;
     margin-right: 90px;
 }
+
 .offer-title-small {
     font-weight: bold;
     font-size: 32px;
     line-height: 38px;
     color: #222222;
 }
+
 .offer-title-pink {
     color: #F16D7F;
 }

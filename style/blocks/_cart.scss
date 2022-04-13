@@ -1,0 +1,243 @@
+.cart-offer {
+    background-color: #F8F3F4;
+}
+
+.cart-offer-tytle {
+    font-weight: 400;
+    font-size: $mass-size*1.5;
+    line-height: 29px;
+    color: $color_pink;
+    padding: 40px 0;
+}
+
+.cart-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 96px;
+}
+
+.cart-card {
+    width: 652px;
+    display: flex;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+
+.card-space {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-descript {
+    max-width: 625px;
+    margin-top: 28px;
+}
+
+.cart-descript-tytle {
+    margin-top: 0;
+    margin-bottom: 42px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.cart-descript-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    margin: 3px 0;
+
+    .cart-descript-text-pink {
+        color: #EF5B70;
+    }
+}
+
+.card-img {
+    max-height: 306px;
+    margin-right: 31px;
+}
+
+.close-cart {
+    padding-right: 22px;
+    padding-top: 28px;
+}
+
+.quantity-input {
+    display: flex;
+    align-items: center;
+}
+
+.cart-quantity-input {
+    margin-left: 24px;
+    padding: 1px 16px;
+    width: 10px;
+    height: 20px;
+    background-color: #Fff;
+    border: 1px solid #A4A4A4;
+    transition: 0.5s ease;
+
+    &:hover,
+    &:focus {
+        background-color: #F3EEEF;
+        transition: 0.5s ease;
+        box-shadow: 2px 2px 2px #4A4A4A;
+    }
+
+}
+
+.form-address {
+    width: 360px;
+    margin-left: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-address-header {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.form-address-input {
+    padding: 13px 17px;
+    border: 1px solid #A4A4A4;
+    background-color: #fff;
+    transition: 0.5s ease;
+
+    &:hover {
+        background-color: #F3EEEF;
+        transition: 0.5s ease;
+    }
+
+    &:focus {
+        background-color: #F3EEEF;
+        transition: 0.5s ease;
+        box-shadow: 5px 5px 5px #4A4A4A;
+        outline: 1px solid #EF5B70;
+    }
+}
+
+.address-button {
+    display: block;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4A4A4A;
+    outline: 1px solid #A4A4A4;
+    border: none;
+    background-color: #fff;
+    padding: 16px 29px;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+    &:hover {
+        color: #F8F3F4;
+        outline: 1px solid #F26376;
+        background-color: #F16D7F;
+        transition: 0.5s ease;
+    }
+}
+
+.checkout {
+    margin-left: 128px;
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F3F3;
+}
+
+.sub-total {
+    display: block;
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    padding: 39px 34px 12px 0;
+}
+
+.grand-total {
+    display: block;
+    align-self: flex-end;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-right: 37px;
+    padding-bottom: 21px;
+
+    .text-pink {
+        color: #EF5B70;
+    }
+}
+
+.line-checkout {
+    width: 275px;
+    height: 1px;
+    margin: 0 auto;
+    border: none;
+    color: #E2E2E2;
+    background-color: #E2E2E2;
+}
+
+
+.checkout-button {
+    display: block;
+    align-self: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4A4A4A;
+    outline: 1px solid #A4A4A4;
+    border: none;
+    background-color: #F8F3F4;
+    padding: 16px 42px;
+    margin-top: 17px;
+    margin-bottom: 42px;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+    &:hover {
+        color: #F8F3F4;
+        outline: 1px solid #F26376;
+        background-color: #F16D7F;
+        transition: 0.5s ease;
+    }
+}
+
+.shopping-button-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.shopping-button {
+    display: block;
+    align-self: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4A4A4A;
+    outline: 1px solid #A4A4A4;
+    border: none;
+    background-color: #fff;
+    width: 236px;
+    padding: 16px 0;
+    margin-top: 17px;
+    margin-bottom: 42px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #F8F3F4;
+        outline: 1px solid #F26376;
+        background-color: #F16D7F;
+        transition: 0.5s ease;
+    }
+}
